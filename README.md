@@ -1,3 +1,16 @@
+# Fork Details
+
+A fork of [bitwarden-menubar by Jonas Drotleff](https://github.com/jnsdrtlf/bitwarden-menubar), adding support for
+macOS 10.15 rather than 11+.
+
+## Build Instructions
+
+1. Ensure that you have a working XCode toolchain installed on your computer
+2. Clone the project and from the terminal in the project directory, run
+`make all`
+3. The built application should be in the build/Release folder, and signed with an ad-hoc certificate
+  to run locally.
+
 <h1 align="center">
   <img src="https://raw.githubusercontent.com/jnsdrtlf/bitwarden-menubar/main/Bitwarden/Assets.xcassets/AppIcon.appiconset/icon%4032.png"/>
   Bitwarden Menu
