@@ -1,0 +1,11 @@
+diff --unified --recursive --text browser/src/popup/tabs.component.ts browser-build/src/popup/tabs.component.ts
+--- browser/src/popup/tabs.component.ts	2021-03-08 15:22:54.000000000 -0700
++++ browser-build/src/popup/tabs.component.ts	2021-03-08 15:42:00.000000000 -0700
+@@ -15,6 +15,6 @@
+     constructor(private popupUtilsService: PopupUtilsService) { }
+ 
+     ngOnInit() {
+-        this.showCurrentTab = !this.popupUtilsService.inPopout(window);
++        this.showCurrentTab = false;
+     }
+ }

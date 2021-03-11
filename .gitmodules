@@ -1,0 +1,3 @@
+[submodule "bitwarden-menubar/browser"]
+	path = bitwarden-menubar/browser
+	url = https://github.com/bitwarden/browser

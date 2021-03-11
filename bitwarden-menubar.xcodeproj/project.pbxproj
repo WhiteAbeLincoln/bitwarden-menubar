@@ -12,6 +12,7 @@
 		30900DB125F9A3FB0042B68E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30900DB025F9A3FB0042B68E /* Assets.xcassets */; };
 		30900DB425F9A3FB0042B68E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30900DB325F9A3FB0042B68E /* Preview Assets.xcassets */; };
 		30900DB725F9A3FB0042B68E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30900DB525F9A3FB0042B68E /* Main.storyboard */; };
+		30900DC425FA70520042B68E /* app in Resources */ = {isa = PBXBuildFile; fileRef = 30900DC325FA70520042B68E /* app */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		30900DB625F9A3FB0042B68E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30900DB825F9A3FB0042B68E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30900DB925F9A3FB0042B68E /* bitwarden_menubar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = bitwarden_menubar.entitlements; sourceTree = "<group>"; };
+		30900DC325FA70520042B68E /* app */ = {isa = PBXFileReference; lastKnownFileType = folder; name = app; path = "bitwarden-menubar/app"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 		30900DA025F9A3F90042B68E = {
 			isa = PBXGroup;
 			children = (
+				30900DC325FA70520042B68E /* app */,
 				30900DAB25F9A3F90042B68E /* bitwarden-menubar */,
 				30900DAA25F9A3F90042B68E /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30900DC425FA70520042B68E /* app in Resources */,
 				30900DB725F9A3FB0042B68E /* Main.storyboard in Resources */,
 				30900DB425F9A3FB0042B68E /* Preview Assets.xcassets in Resources */,
 				30900DB125F9A3FB0042B68E /* Assets.xcassets in Resources */,
@@ -272,6 +276,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -296,6 +301,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.abewhite.bitwarden-menubar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -308,6 +314,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "bitwarden-menubar/bitwarden_menubar.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"bitwarden-menubar/Preview Content\"";
@@ -320,6 +327,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.abewhite.bitwarden-menubar";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
